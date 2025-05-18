@@ -31,4 +31,4 @@ Beyond algorithms and coding, the course emphasizes real-world impact. Through *
 
 By the end of the course, students will not only master deep learning methods but also appreciate their potential to shape the future of biomedical science. This is more than a class—it’s an invitation to the forefront of biomedical innovation, leveraging the power of deep learning to decipher the complexities of life and health.
 
-<script type="text/javascript" id="clustrmaps" src="https://clustrmaps.com/map_v2.js?d=ALDrEcc70EcnoYv3VnXoQ6s_bSg8_DAaAU7G_5JOPlI&cl=ffffff&w=a"></script>
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=ALDrEcc70EcnoYv3VnXoQ6s_bSg8_DAaAU7G_5JOPlI'></script>
