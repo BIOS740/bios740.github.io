@@ -1,39 +1,34 @@
 ---
-layout: home
-title: Just the Class
+layout: page
+title: BIOS740
 nav_exclude: true
 permalink: /:path/
 seo:
   type: Course
-  name: Just the Class
+  name: BIOS740
 ---
+# Course Description and Goals
 
-# Just the Class
+The fields of **computational biology** and **biomedical research** are evolving rapidly, fueled by the transformative power of deep learning. This course, **“Deep Learning Methods in Biomedical Sciences with PyTorch,”** offers an in-depth exploration of how advanced computational techniques intersect with complex biomedical data to drive new discoveries.
 
-Just the Class is a GitHub Pages template developed for the purpose of quickly deploying course websites. In addition to serving plain web pages and files, it provides a boilerplate for:
+As biomedical datasets expand in size and complexity, traditional algorithms often struggle to capture subtle patterns and relationships. In contrast, deep learning—through multi-layered neural networks—offers robust solutions for some of the field’s most challenging problems.
 
-- [announcements](announcements.md),
-- a [course calendar](calendar.md),
-- a [staff](staff.md) page,
-- and a weekly [schedule](schedule.md).
+This course is designed to equip students with both **theoretical knowledge** and **practical skills** for pioneering biomedical research. Using **PyTorch**, a leading deep learning framework, students will gain hands-on experience in implementing, training, and evaluating neural network models on real-world biomedical data.
 
-Just the Class is a template that extends the popular [Just the Docs](https://github.com/just-the-docs/just-the-docs) theme, which provides a robust and thoroughly-tested foundation for your website. Just the Docs include features such as:
+The curriculum is thoughtfully structured to build foundational understanding before moving to advanced topics, including:
 
-- automatic [navigation structure](https://just-the-docs.github.io/just-the-docs/docs/navigation-structure/),
-- instant, full-text [search](https://just-the-docs.github.io/just-the-docs/docs/search/) and page indexing,
-- and a set of [UI components](https://just-the-docs.github.io/just-the-docs/docs/ui-components) and authoring [utilities](https://just-the-docs.github.io/just-the-docs/docs/utilities).
+- **Core neural network architectures**
+- **Convolutional neural networks** for medical image analysis
+- **Recurrent neural networks** for sequential health data
+- **Transformers** for genomic sequences
+- **Specialized models** like BioBERT for clinical text
 
-## Getting Started
+Beyond algorithms and coding, the course emphasizes real-world impact. Through **case studies**, **projects**, and **interactive discussions**, students will engage with pressing biomedical challenges, such as:
 
-Getting started with Just the Class is simple.
+- Disease prediction
+- Medical image segmentation
+- Genomic data interpretation
 
-1. Create a [new repository based on Just the Class](https://github.com/kevinlin1/just-the-class/generate).
-1. Update `_config.yml` and `README.md` with your course information. [Be sure to update the url and baseurl](https://mademistakes.com/mastering-jekyll/site-url-baseurl/).
-1. Configure a [publishing source for GitHub Pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages). Your course website is now live!
-1. Edit and create `.md` [Markdown files](https://guides.github.com/features/mastering-markdown/) to add more content pages.
+By the end of the course, students will not only master deep learning methods but also appreciate their potential to shape the future of biomedical science. This is more than a class—it’s an invitation to the forefront of biomedical innovation, leveraging the power of deep learning to decipher the complexities of life and health.
 
-Just the Class has been used by instructors at Stanford University ([CS 161](https://stanford-cs161.github.io/winter2021/)), UC Berkeley ([Data 100](https://ds100.org/fa21/)), UC Santa Barbara ([CSW8](https://ucsb-csw8.github.io/s22/)), Northeastern University ([CS4530/5500](https://neu-se.github.io/CS4530-CS5500-Spring-2021/)), and Carnegie Mellon University ([17-450/17-950](https://cmu-crafting-software.github.io/)). Share your course website and find more examples in the [show and tell discussion](https://github.com/kevinlin1/just-the-class/discussions/categories/show-and-tell)!
-
-### Local development environment
-
-Just the Class requires no special Jekyll plugins and can run on GitHub Pages' standard Jekyll compiler. To setup a local development environment, clone your template repository and follow the GitHub Docs on [Testing your GitHub Pages site locally with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll).
+<script type="text/javascript" id="clustrmaps" src="https://clustrmaps.com/map_v2.js?d=ALDrEcc70EcnoYv3VnXoQ6s_bSg8_DAaAU7G_5JOPlI&cl=ffffff&w=a"></script>

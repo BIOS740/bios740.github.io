@@ -1,10 +1,10 @@
 ---
 layout: page
 title: About
+nav_order: 1
 description: >-
     Course policies and information.
 ---
-
 # Course Description and Goals
 
 The fields of **computational biology** and **biomedical research** are evolving rapidly, fueled by the transformative power of deep learning. This course, **“Deep Learning Methods in Biomedical Sciences with PyTorch,”** offers an in-depth exploration of how advanced computational techniques intersect with complex biomedical data to drive new discoveries.
@@ -28,3 +28,5 @@ Beyond algorithms and coding, the course emphasizes real-world impact. Through *
 - Genomic data interpretation
 
 By the end of the course, students will not only master deep learning methods but also appreciate their potential to shape the future of biomedical science. This is more than a class—it’s an invitation to the forefront of biomedical innovation, leveraging the power of deep learning to decipher the complexities of life and health.
+
+<script type="text/javascript" id="clustrmaps" src="https://clustrmaps.com/map_v2.js?d=ALDrEcc70EcnoYv3VnXoQ6s_bSg8_DAaAU7G_5JOPlI&cl=ffffff&w=a"></script>
