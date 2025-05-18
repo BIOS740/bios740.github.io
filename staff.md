@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Staff
+nav_order: 3
 description: A listing of all the course staff members.
 ---
-
 # Staff
 
 ## Instructors
@@ -16,6 +16,7 @@ description: A listing of all the course staff members.
 {% assign teaching_assistants = site.staffers | where: 'role', 'Teaching Assistant' %}
 {% assign num_teaching_assistants = teaching_assistants | size %}
 {% if num_teaching_assistants != 0 %}
+
 ## Teaching Assistants
 
 {% for staffer in teaching_assistants %}
