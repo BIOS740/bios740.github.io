@@ -7,28 +7,43 @@ seo:
   type: Course
   name: BIOS740
 ---
-# Course Description and Goals
+# Welcome to BIOS740
 
-The fields of **computational biology** and **biomedical research** are evolving rapidly, fueled by the transformative power of deep learning. This course, **“Deep Learning Methods in Biomedical Sciences with PyTorch,”** offers an in-depth exploration of how advanced computational techniques intersect with complex biomedical data to drive new discoveries.
+{% assign announcements = site.announcements | sort: "date" | reverse %}
+{% for announcement in announcements limit:5 %}
+  <div class="announcement">
+    <h3>{{ announcement.title }}</h3>
+    <small>{{ announcement.date | date: "%B %-d, %Y" }}</small>
+    <div>{{ announcement.content | markdownify }}</div>
+  </div>
+{% endfor %}
 
-As biomedical datasets expand in size and complexity, traditional algorithms often struggle to capture subtle patterns and relationships. In contrast, deep learning—through multi-layered neural networks—offers robust solutions for some of the field’s most challenging problems.
 
-This course is designed to equip students with both **theoretical knowledge** and **practical skills** for pioneering biomedical research. Using **PyTorch**, a leading deep learning framework, students will gain hands-on experience in implementing, training, and evaluating neural network models on real-world biomedical data.
+<div style="
+  max-width: 700px;
+  margin: 2.5em auto;
+  padding: 2em 1.5em 1.5em 1.5em;
+  background: #f6faff;
+  border-radius: 2em;
+  box-shadow: 0 6px 32px rgba(50,75,170,0.10);
+  text-align: center;
+  border: 1.5px solid #dde3ee;
+">
+  <h2 style="margin-top: 0; font-family: inherit; font-size: 2.2em; color: #304065; letter-spacing: 0.02em;">
+    🌍 Global Visitor Map
+  </h2>
+  <div style="margin-bottom: 1.5em; color: #607088; font-size: 1.25em;">
+    See where in the world our website is making an impact! The interactive map below shows the locations of recent visitors.
+  </div>
+  <div style="display: flex; justify-content: center;">
+    <div style="width: 550px; max-width: 100%;">
+      <script type="text/javascript" id="clustrmaps" src="https://clustrmaps.com/map_v2.js?d=ALDrEcc70EcnoYv3VnXoQ6s_bSg8_DAaAU7G_5JOPlI&cl=ffffff&w=a"></script>
+    </div>
+  </div>
+  <div style="margin-top: 1.5em; color: #a8adc0; font-size: 1.05em;">
+    Powered by <a href="https://clustrmaps.com/" target="_blank" style="color:#4777e4;text-decoration:underline;">ClustrMaps</a>
+  </div>
+</div>
 
-The curriculum is thoughtfully structured to build foundational understanding before moving to advanced topics, including:
 
-- **Core neural network architectures**
-- **Convolutional neural networks** for medical image analysis
-- **Recurrent neural networks** for sequential health data
-- **Transformers** for genomic sequences
-- **Specialized models** like BioBERT for clinical text
 
-Beyond algorithms and coding, the course emphasizes real-world impact. Through **case studies**, **projects**, and **interactive discussions**, students will engage with pressing biomedical challenges, such as:
-
-- Disease prediction
-- Medical image segmentation
-- Genomic data interpretation
-
-By the end of the course, students will not only master deep learning methods but also appreciate their potential to shape the future of biomedical science. This is more than a class—it’s an invitation to the forefront of biomedical innovation, leveraging the power of deep learning to decipher the complexities of life and health.
-
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=ALDrEcc70EcnoYv3VnXoQ6s_bSg8_DAaAU7G_5JOPlI'></script>
