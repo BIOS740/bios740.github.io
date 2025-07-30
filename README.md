@@ -37,7 +37,7 @@ seo:
   </div>
   <div style="display: flex; justify-content: center;">
     <div style="width: 550px; max-width: 100%;">
-      <script type="text/javascript" id="clustrmaps" src="https://clustrmaps.com/map_v2.js?d=ALDrEcc70EcnoYv3VnXoQ6s_bSg8_DAaAU7G_5JOPlI&cl=ffffff&w=a"></script>
+      <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=tt&d=ALDrEcc70EcnoYv3VnXoQ6s_bSg8_DAaAU7G_5JOPlI'></script>
     </div>
   </div>
   <div style="margin-top: 1.5em; color: #a8adc0; font-size: 1.05em;">
