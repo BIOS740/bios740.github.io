@@ -7,7 +7,7 @@ url: 'https://github.com/BIOS740/bios740.github.io' # the base hostname & protoc
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 
 # Theme settings
-remote_theme: just-the-docs/just-the-docs@v0.10.1
+theme: just-the-docs
 color_scheme: unc
 search_enabled: true
 heading_anchors: true
