@@ -24,15 +24,15 @@ schedule:
     events:
         - name: Lecture
           start: 9:30 AM
-          end: 10:30 AM
-          location: TBD
+          end: 10:45 AM
+          location: 3105C McGavran-Greenberg Hall
   - name: Wednesday
   - name: Thursday
     events:
       - name: Lecture
         start: 9:30 AM
-        end: 10:30 AM
-        location: TBD
+        end: 10:45 AM
+        location: 3105C McGavran-Greenberg Hall
   - name: Friday
     events:
       - name: Office Hours
