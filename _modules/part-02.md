@@ -7,7 +7,7 @@ Lec3
   : [**HW 1**](/assets/HW/HW1.zip){: .label .label-purple }
 
 Lec4
-: [Recurrent Neural Networks (RNN) and Long Short-Term Memory (LSTM)](/assets/slides/C4.pdf)
+: [Sequence Modeling: RNNs, LSTM, and GRU](/assets/slides/C4.pdf)
   <!-- : **HW 2**{: .label .label-purple } -->
 <!-- : **HW 1 due**{: .label .label-red } -->
 
@@ -17,7 +17,7 @@ Lec5
 <!-- : **HW 2 due**{: .label .label-red } -->
 
 Lec6
-: [Generative Adversarial Networks (GAN)](/assets/slides/C6.pdf)
+: [Deep Generative Models](/assets/slides/C6.pdf)
   <!-- : **HW 4**{: .label .label-purple } -->
 <!-- : **HW 3 due**{: .label .label-red } -->
 
